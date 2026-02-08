@@ -182,3 +182,8 @@ div#skill-container .barra {
   background-color: var(--destaque);
 }
 
+div#skill-container .progresso {
+  height: 100%;
+  background-color: var(--destaque-inverso);
+  border-radius: 4px;
+}
