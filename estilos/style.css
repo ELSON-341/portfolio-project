@@ -187,3 +187,9 @@ div#skill-container .progresso {
   background-color: var(--destaque-inverso);
   border-radius: 4px;
 }
+
+@media screen and (min-width: 768px) {
+  div#skill-container  {
+    grid-template-columns: 1fr 1fr;
+  }
+}
